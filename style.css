@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+
+    background-color: rgb(7, 7, 7); 
+    
+}   
+   
+
+
+p{
+    color : rgb(248, 248, 248)
+}
+
+.center {
+
+    display: flex;
+    justify-content: right;
+}
+
+.menu{
+    background-color:rgb(235, 55, 55) ;
+}
+    
+
+ul li  {
+    color: white;
+    font-size: 20px;
+    margin: 20px ;
+    display:inline-block;
+    
+    
+}
+
+.link1 {
+    
+    background-color: rgb(235, 55, 55);
+    padding: 6px 110px;
+    color: rgb(247, 247, 247);
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+
+
+h1 {
+    
+    color: white;
+    font-size: 60px;
+    padding : 25px;
+}
+.imagenes {
+
+    padding : 25px 0px 55px;
+}
+
+h2 {
+    color :red;
+    font-size: 35px;
+    padding : 0px 5px 25px;
+
+}
+
+section {
+    color :white;
+    font-size: 25px;
+    padding:25px;
+}
+
+.contacto {
+    background-color: rgb(230, 82, 82);
+    color: white;
+    font-size: 25px;
+    padding : 30px;
+    
+
+
+}
+
+.contacto2 {   background-color: rgb(230, 82, 82);
+    color: white;
+    font-size: 25px;
+    padding: 3px 3px 3px 3px;
+    
+    
+}
+
+
+body {
+
+    background-color: black;
+}
+
+.marcas {
+    font-size: 25px;
+    display: block;
+}
+
+p{
+    font-size: 25px;
+}
+
+h3 {
+    color :red;
+    font-size: 35px;
+    padding : 10px 5px 25px;
+}
+
+h4 {
+    color :red;
+    font-size: 35px;
+    padding : 10px 5px 25px;
+}
+
+.productos {
+    color: rgb(182, 170, 194);
+    display: block;
+    
+}
+
+.tituloprod{
+    color: white;
+    font-size: 50px;
+    padding : 25px;
+    
+}
+
+.pagos {
+    color: white;
+    font-size: 30px;
+    padding : 25px;
+}
+
+h5 {
+    color: white;
+    font-size: 30px;
+    padding : 25px;
+}
