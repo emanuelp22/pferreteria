@@ -54,9 +54,23 @@ h1 {
     font-size: 60px;
     padding : 25px;
 }
-.imagenes {
 
-    padding : 25px 0px 55px;
+
+.slide {
+    margin-top: 40px;
+    width: 50%;
+    
+}
+
+.slide img {
+    height: 35vh;
+    
+}
+
+.slide2 {
+    margin-top: 40px;
+    width: 30%;
+    
 }
 
 h2 {
