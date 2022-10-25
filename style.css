@@ -223,8 +223,13 @@ h5 {
 }
 
 @media screen and (max-width:720px) {
-    .animaciontitulo {
-        font-size:60px ;
-        color: white;
+    .animaciontitulo :hover {
+        animation: cambioDeTamaño; 
     }
+    @keyframes cambioDeTamaño {
+        
+     0% {font-size: 60px;
+            color: white;
+        }
+}
 }
