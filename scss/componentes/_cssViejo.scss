@@ -13,11 +13,7 @@ p{
 }
 
 .banner {
-    display: block;
-    margin: auto;
-    width: 100%;
-    max-width: 1200px;
-    min-width: 480px;
+    @extend %display-banner;
 }
 
 @media screen and (max-width:720px){
@@ -32,14 +28,6 @@ p{
 }
     
 
-ul li  {
-    color: white;
-    font-size: 20px;
-    margin: 20px ;
-    display:inline-block;
-    
-    
-}
 
 .link1 {
     
@@ -199,6 +187,8 @@ h5 {
     text-decoration: none;
 }
 
+
+
 .nav-item :hover{
     color: rgb(5, 5, 5);
 }
@@ -237,4 +227,8 @@ h5 {
             color: white;
         }
 }
+}
+
+ul li {
+    @extend %li1
 }
