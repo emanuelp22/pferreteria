@@ -19,7 +19,7 @@ p{
 @media screen and (max-width:720px){
     .center {
     
-        justify-content: center;
+        display: none;
     }
 }
 
@@ -52,24 +52,34 @@ h1 {
 .slide {
     margin-top: 40px;
     width: 50%;
+    margin: 30%;
     
 }
 
+@media screen and (max-width:720px) {
+    .slide {
+        width: 85%;
+        margin:10%;
+    }
+}    
+
 .slide img {
     height: 35vh;
-    
 }
+    
 
 .slide2 {
     margin-top: 40px;
     width: 30%;
+    
+    
     
 }
 
 
 @media screen and (max-width:720px) {
     .slide2 {
-        width: 85%
+        width: 85%;
     }
 }    
 
@@ -80,7 +90,7 @@ h2 {
 
 }
 
-section {
+footer {
     color :white;
     font-size: 25px;
     padding:25px;
@@ -231,4 +241,10 @@ h5 {
 
 ul li {
     @extend %li1
+}
+
+h6 {
+    color :red;
+    font-size: 35px;
+    padding : 10px 5px 25px;
 }

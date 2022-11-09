@@ -30,7 +30,7 @@ p {
 
 @media screen and (max-width: 720px) {
   .center {
-    justify-content: center;
+    display: none;
   }
 }
 .menu {
@@ -55,8 +55,15 @@ h1 {
 .slide {
   margin-top: 40px;
   width: 50%;
+  margin: 30%;
 }
 
+@media screen and (max-width: 720px) {
+  .slide {
+    width: 85%;
+    margin: 10%;
+  }
+}
 .slide img {
   height: 35vh;
 }
@@ -77,7 +84,7 @@ h2 {
   padding: 0px 5px 25px;
 }
 
-section {
+footer {
   color: white;
   font-size: 25px;
   padding: 25px;
@@ -207,6 +214,11 @@ h5 {
       color: white;
     }
   }
+}
+h6 {
+  color: red;
+  font-size: 35px;
+  padding: 10px 5px 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
