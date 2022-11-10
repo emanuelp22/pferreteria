@@ -52,7 +52,7 @@ h1 {
 .slide {
     margin-top: 40px;
     width: 50%;
-    margin: 30%;
+    
     
 }
 
@@ -71,7 +71,7 @@ h1 {
 .slide2 {
     margin-top: 40px;
     width: 30%;
-    
+    margin: 10px 30%;
     
     
 }
@@ -80,6 +80,7 @@ h1 {
 @media screen and (max-width:720px) {
     .slide2 {
         width: 85%;
+        margin:10px 10%;
     }
 }    
 
